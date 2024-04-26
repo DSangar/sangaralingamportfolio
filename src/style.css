@@ -1,0 +1,167 @@
+
+
+.logo1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    
+
+}
+.bg-color1{
+    background-color: rgba(51, 51, 53, 0.149) ;
+}
+.Home{
+    background-color: rgba(51, 51, 53, 0.149);
+    height: 750px;
+}
+.name-section{
+    margin: 20%;
+    
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.Header-image{
+    margin: 0 -50%;
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid red; */
+    
+    
+    filter: drop-shadow(10px 4px rgba(0, 0, 0, 0.193)) ;
+}
+.homebutn{
+    /* border: 2px solid red; */
+    margin-left: 10%;
+   
+}
+
+/* profile-section */
+.profilesection{
+    height: 750px;
+    
+}
+.profile{
+    height: 700px;
+}
+.profilephoto{
+
+    width: 200px;
+
+}
+
+
+/* project section */
+
+.card{
+
+    width: 400px;
+}
+.card-image{
+
+    width: 100%;
+}
+/* .card-img-bottom{
+    width: 380px;
+    height: 300px;
+} */
+
+
+/* eduction section */
+
+/* .eduction1{
+    border: 10px solid rgb(98, 199, 246);
+    border-radius: 20px;
+    align-items: center;
+} */
+
+/* skills section */
+
+.skills-images{
+
+    filter: drop-shadow(10px 4px rgba(0, 0, 0, 0.193)) ;
+    /* width: px; */
+    /* border: 2px solid red; */
+    
+}
+
+.skills-images img{
+
+    border: 2px solid rgb(209, 208, 208);
+    width: 80%;
+
+}
+
+/* contact section */
+
+.mgs{
+    border-right: 8px solid rgb(215, 235, 244);
+    filter: drop-shadow(1px 4px hsla(183, 7%, 8%, 0.211));
+    border-radius: 5px;
+    
+   
+    
+}
+.row{
+    filter: drop-shadow(2px 1px hsla(183, 7%, 8%, 0.211))
+   
+}
+
+
+@media only screen and (max-width: 430px){
+
+    .photo{
+        
+        display: none;
+        
+    }
+
+}
+@media only screen and (max-width: 1024px){
+
+
+    .Home-Scetion{
+        /* border: 2px solid red; */
+        width: auto;
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .Home{
+        background-color: rgba(51, 51, 53, 0.149);
+        height: 550px;
+    }
+    .Home-Scetion{
+        /* border: 2px solid red; */
+        width: 320px;
+        size: 50%;
+    }
+    .card{
+
+        width: auto;
+        align-items: center;
+        size-adjust: 50%;
+    }
+
+}
+
+
+/* animaition */
+
+.photo {
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 1s;
+  }
+  
+@keyframes mymove {
+    from {transform: translateY(0px)};
+    to {transform: translateY(50px)};
+}
+  
