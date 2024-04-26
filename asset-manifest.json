@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sangaralingamportfolio/static/css/main.f2409679.css",
+    "main.js": "/sangaralingamportfolio/static/js/main.0528d31c.js",
+    "static/media/image6.jpg": "/sangaralingamportfolio/static/media/image6.8c6635160513177e5d0c.jpg",
+    "static/media/image7.jpg": "/sangaralingamportfolio/static/media/image7.b47c1313f77c5eaa4732.jpg",
+    "static/media/image4.png": "/sangaralingamportfolio/static/media/image4.67b23afd59649adb1b08.png",
+    "static/media/Slogo.png": "/sangaralingamportfolio/static/media/Slogo.87aa43b82d54ad185bd4.png",
+    "static/media/image4rb.png": "/sangaralingamportfolio/static/media/image4rb.bd8c6e12c9711a7441ad.png",
+    "static/media/image8.jpg": "/sangaralingamportfolio/static/media/image8.31b937d184741a6652cc.jpg",
+    "static/media/mongodb.svg": "/sangaralingamportfolio/static/media/mongodb.6cae7760a21945b9580e3493fdb2749d.svg",
+    "static/media/nodejs.svg": "/sangaralingamportfolio/static/media/nodejs.f163cddfbfe49648deb1ce8917207b77.svg",
+    "static/media/react.svg": "/sangaralingamportfolio/static/media/react.c60e072461a29d9c38291223075ac016.svg",
+    "index.html": "/sangaralingamportfolio/index.html",
+    "static/media/html.svg": "/sangaralingamportfolio/static/media/html.8af6948df811f46a0eadbe39ad98638b.svg",
+    "static/media/css.svg": "/sangaralingamportfolio/static/media/css.bba0846c17cbd72752bd3deda1c1fdae.svg",
+    "static/media/boostrap.svg": "/sangaralingamportfolio/static/media/boostrap.53cd3aa8f35ff7df545aed9959d48212.svg",
+    "static/media/npm.svg": "/sangaralingamportfolio/static/media/npm.415fcfa105945a2dfd8d5ea7ef4817cd.svg",
+    "static/media/javascript.svg": "/sangaralingamportfolio/static/media/javascript.cb6c28ae8b07ac4ffe29cee2352650dd.svg",
+    "main.f2409679.css.map": "/sangaralingamportfolio/static/css/main.f2409679.css.map",
+    "main.0528d31c.js.map": "/sangaralingamportfolio/static/js/main.0528d31c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2409679.css",
+    "static/js/main.0528d31c.js"
+  ]
+}
