@@ -33,7 +33,7 @@ function Navbar() {
       
     <div className="container-fluid">
     
-          <a class="navbar-brand" href="javascript(0)">
+          <a class="navbar-brand" href="#">
             <img src={Logo} className="rounded-pill" style={mystyle} />
           </a>
       <a className="navbar-brand" href="javascript(0)">Logo</a>
@@ -43,7 +43,7 @@ function Navbar() {
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul className="navbar-nav ">
           <li className="nav-item active">
-            <a className="nav-link" href="#Home">Home</a>
+            <a className="nav-link" href="#">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Profile">Profile</a>
