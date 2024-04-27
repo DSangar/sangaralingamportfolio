@@ -51,7 +51,7 @@ function Contact() {
                                                 <div className=" ">
                                                     {/* <input type="checkbox" className="" id="checkbox " />Check the Detials<br /> */}
                                                     <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required/>
-                                                        <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+                                                        <label class="form-check-label" for="myCheck">I agree on all</label>
                                                         <div class="valid-feedback">Valid.</div>
                                                         <div class="invalid-feedback">Check this checkbox to continue.</div>
                                                  </div>
