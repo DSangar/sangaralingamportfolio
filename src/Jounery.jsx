@@ -72,7 +72,7 @@ function Jounery(){
 
                             </div>
                             <div className="col-sm-6">
-                                <h2 className="text-center">Ceritcate</h2>
+                                <h2 className="text-center">Certificate</h2>
                                 <br />
 
                                 <div className="c1 border-start border-bottom rounded-4 border-info" data-aos="fade-left" data-aos-offset="200">
