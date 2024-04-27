@@ -5,7 +5,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter'
 function Home() {
 
     const[text]=useTypewriter({
-        words:['UI/UX Devaloper', 'FullStack Developer','MERN Stack Devaloper', 'Web Disigner'],
+        words:['UI/UX Developer', 'FullStack Developer','MERN Stack Developer', 'Web Designer'],
         loop:{},
         typeSpeed:120,
     })
@@ -28,7 +28,7 @@ function Home() {
                             <Cursor cursorStyle='"-"' /></h3>
                             <br />
                             <h6>Learn Every Day ...
-                                Error make good Devaloper</h6>
+                                Error make good Developer</h6>
                             <br />
                             
 
@@ -67,7 +67,9 @@ function Home() {
                 
                                 </div>
                             </div>
-                            <div className="col-md-6 ">
+                            <div className="col-md-6  " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                               <div className="contact-wrap w100 p-lg-5 p-4">
                                 <img className="Header-image img-fluid" src={Logo} alt="" srcset="" />
                                    
