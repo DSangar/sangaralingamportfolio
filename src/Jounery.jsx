@@ -34,7 +34,7 @@ function Jounery(){
                                         <br />
                                         <div className="univarcity">
                                             <h5>
-                                            <span className="spinner-grow spinner-grow-sm text-info"></span> IIIIER Univaricity
+                                            <span className="spinner-grow spinner-grow-sm text-info"></span> IIIIER University
                                             </h5>
                                         </div>
                                         <br />
@@ -58,7 +58,7 @@ function Jounery(){
                                         <br />
                                         <div className="univarcity">
                                             <h5>
-                                            <span className="spinner-grow spinner-grow-sm text-info"></span> DOTE Univaricity
+                                            <span className="spinner-grow spinner-grow-sm text-info"></span> DOTE University
                                             </h5>
                                         </div>
                                         <br />
