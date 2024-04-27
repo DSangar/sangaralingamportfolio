@@ -11,7 +11,7 @@ export const footer = () => {
           <div class="container  pt-4">
             
              <section class="row mb-4"> 
-              <div className="col-6">
+              {/* <div className="col-6">
               <a
                 data-mdb-ripple-init
                 class="btn btn-link btn-floating btn-lg text-body m-1"
@@ -69,8 +69,8 @@ export const footer = () => {
                 data-mdb-ripple-color="dark"
                 ><i class="fab fa-github"></i
               ></a>
-              </div>
-                    <div class="col-6 text-center p-3" >
+              </div> */}
+                    <div class="col-12 text-center p-3" >
                         © {year.getFullYear()} Copyright:
                         <a class="text-body" href="https://mdbootstrap.com/">Sangaralingam</a>
                     </div>
