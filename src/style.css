@@ -4,9 +4,7 @@ html{
 
     width: auto;
 }
-.Home{
-    
-}
+
 
 .logo1{
     width: 40px;
@@ -116,7 +114,7 @@ html{
 
   html,body{
     width: 100%;
-    overflow-x:hidden ;
+    /* overflow-x:hidden ; */
   }
 
 
@@ -127,7 +125,7 @@ html{
 @media only screen and (max-width: 1350px){
     html,body{
         width: 100%;
-        overflow-y:hidden ;
+        /* overflow-y:hidden ; */
       }
    
     
