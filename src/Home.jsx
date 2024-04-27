@@ -12,7 +12,7 @@ function Home() {
 
 
   return (
-    <section className="contact-scetion" id="Contact">
+    <section className="contact-scetion" id="Home">
 
         <div className="contaniner ">
             <br />
@@ -20,7 +20,7 @@ function Home() {
                 <div className="col-md-10">
                     <div className="wrapper">
                         <div className="row no-gutters">
-                            <div className="col-md-6 mgs" data-aos="flip-left" data-aos-duration="2500">
+                            <div className="col-md-6 " data-aos="flip-left" data-aos-duration="2500">
                                 <div className="contact-wrap w100 p-lg-5 p-4">
                                 <div className="container name-section">
                             <h1 data-aos-duration="4500" data-aos="fade-down-right" >Sangaralingam D</h1>

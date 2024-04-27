@@ -55,10 +55,10 @@ html{
 
     width: 300px;
 }
-.card-image{
+/* .card-image{
 
-    /* width: 100%; */
-}
+    width: 100%;
+} */
 /* .card-img-bottom{
     width: 380px;
     height: 300px;
@@ -114,7 +114,7 @@ html{
 
   html,body{
     width: 100%;
-    /* overflow-x:hidden ; */
+    overflow-x:hidden ;
   }
 
 
@@ -122,10 +122,10 @@ html{
 
 }
 
-@media only screen and (max-width: 1350px){
+@media only screen and (max-width: 2560px){
     html,body{
         width: 100%;
-        /* overflow-y:hidden ; */
+        overflow-x:hidden ;
       }
    
     

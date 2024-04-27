@@ -43,7 +43,7 @@ function Navbar() {
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul className="navbar-nav ">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Home</a>
+            <a className="nav-link" href="#Home">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Profile">Profile</a>
