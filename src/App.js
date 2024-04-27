@@ -6,6 +6,7 @@ import Jounery from "./Jounery.jsx";
 import Skills from "./Skills.jsx";
 import Contact from "./Contact.jsx"
 import Footer  from "./Footer1.jsx";
+import Home from "./Home.jsx";
 
 
 
@@ -22,14 +23,15 @@ function App(){
     <div>
 
       <Navbar/>
+      <Home/>
       
-      <Header/>
       <Profile/>
       <Project/>
       <Jounery/>
       <Skills />
       <Contact />
       <Footer/>
+      
       
       
       

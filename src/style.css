@@ -1,9 +1,17 @@
+html{
+    
+    margin-left: 0;
 
+    width: auto;
+}
+.Home{
+    
+}
 
 .logo1{
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    /* ? */
     
 
 }
@@ -21,15 +29,7 @@
     justify-content: center;
     align-items: center;
 }
-.Header-image{
-    margin: 0 -50%;
-    width: 500px;
-    height: 500px;
-    /* border: 2px solid red; */
-    
-    
-    filter: drop-shadow(10px 4px rgba(0, 0, 0, 0.193)) ;
-}
+
 .homebutn{
     /* border: 2px solid red; */
     margin-left: 10%;
@@ -55,11 +55,11 @@
 
 .card{
 
-    width: 400px;
+    width: 300px;
 }
 .card-image{
 
-    width: 100%;
+    /* width: 100%; */
 }
 /* .card-img-bottom{
     width: 380px;
@@ -110,22 +110,27 @@
 
 @media only screen and (max-width: 430px){
 
-    .photo{
-        
-        display: none;
-        
-    }
 
 }
 @media only screen and (max-width: 1024px){
 
+  html,body{
+    width: 100%;
+    overflow-x:hidden ;
+  }
 
-    .Home-Scetion{
-        /* border: 2px solid red; */
-        width: auto;
+
     
-    }
 
+}
+
+@media only screen and (max-width: 1350px){
+    html,body{
+        width: 100%;
+        overflow-y:hidden ;
+      }
+   
+    
 
 }
 
