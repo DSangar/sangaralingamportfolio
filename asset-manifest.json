@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sangaralingamportfolio/static/css/main.f2409679.css",
-    "main.js": "/sangaralingamportfolio/static/js/main.0528d31c.js",
+    "main.css": "/sangaralingamportfolio/static/css/main.bae4f88d.css",
+    "main.js": "/sangaralingamportfolio/static/js/main.a459ffcb.js",
     "static/media/image6.jpg": "/sangaralingamportfolio/static/media/image6.8c6635160513177e5d0c.jpg",
     "static/media/image7.jpg": "/sangaralingamportfolio/static/media/image7.b47c1313f77c5eaa4732.jpg",
     "static/media/image4.png": "/sangaralingamportfolio/static/media/image4.67b23afd59649adb1b08.png",
@@ -17,11 +17,11 @@
     "static/media/boostrap.svg": "/sangaralingamportfolio/static/media/boostrap.53cd3aa8f35ff7df545aed9959d48212.svg",
     "static/media/npm.svg": "/sangaralingamportfolio/static/media/npm.415fcfa105945a2dfd8d5ea7ef4817cd.svg",
     "static/media/javascript.svg": "/sangaralingamportfolio/static/media/javascript.cb6c28ae8b07ac4ffe29cee2352650dd.svg",
-    "main.f2409679.css.map": "/sangaralingamportfolio/static/css/main.f2409679.css.map",
-    "main.0528d31c.js.map": "/sangaralingamportfolio/static/js/main.0528d31c.js.map"
+    "main.bae4f88d.css.map": "/sangaralingamportfolio/static/css/main.bae4f88d.css.map",
+    "main.a459ffcb.js.map": "/sangaralingamportfolio/static/js/main.a459ffcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2409679.css",
-    "static/js/main.0528d31c.js"
+    "static/css/main.bae4f88d.css",
+    "static/js/main.a459ffcb.js"
   ]
 }
