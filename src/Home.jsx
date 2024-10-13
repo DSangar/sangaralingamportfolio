@@ -4,7 +4,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
 function Home() {
 
-    const[text]=useTypewriter({
+    const [text]=useTypewriter({
         words:['UI/UX Developer', 'FullStack Developer','MERN Stack Developer', 'Web Designer'],
         loop:{},
         typeSpeed:120,

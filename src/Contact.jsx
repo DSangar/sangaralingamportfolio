@@ -1,10 +1,39 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function Contact() {
 
-    const handlesumbit=()=>{
 
-    }
+
+
+    // -------------------------------------------------
+
+    const form = useRef();
+
+     const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("sangaralingam1", "sangaralingam-template", 
+        form.current, {
+        publicKey: "dKm91Mf9XDCTpe0o3",
+      })
+      .then(
+        (result) => {
+          console.log("SUCCESS!");
+          console.log (result.text);
+          toast.success('Contact Will Soon');
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          toast.error('Plase Check Correct word');
+        }
+      );
+  };
+
+    // ----------------------------------------------------------------------
 
 
   return (
@@ -21,12 +50,12 @@ function Contact() {
                                     <h3 className="mb-4">
                                         Send us a Message
                                     </h3>
-                                    <form id="contactFrom" className="contactform" onClick={handlesumbit}>
+                                    <form id="contactFrom" className="contactform" ref={form} onSubmit={sendEmail}>
 
                                         <div className="row ">
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                    <input type="text" className="form-control  " id="name " placeholder="Name"required/>
+                                                    <input type="text" className="form-control  " id="name " placeholder="Name" name="user_name" required/>
                                                     <br />
                                     
                                                 </div>
@@ -34,17 +63,17 @@ function Contact() {
                                         
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                    <input type="email" className="form-control " id="mail " placeholder="Mail ID" required/><br />
+                                                    <input type="email" className="form-control " id="mail " placeholder="Mail ID"  name="user_email" required/><br />
                                                 </div>
                                             </div>
                                             <div className="col-md-12">
                                                 <div className="form-group ">
-                                                    <input type="tel" className="form-control " id="tel " placeholder="Contact Number" required/><br />
+                                                    <input type="tel" name="user_number" className="form-control " id="tel " placeholder="Contact Number" required/><br />
                                                 </div>
                                             </div>
                                             <div className="col-md-12">
                                                 <div className="form-group ">
-                                                    <textarea name="textarea" id="teaxtarea" className="form-control" placeholder="Subject" cols="30" rows="10"></textarea>
+                                                    <textarea name="message" id="teaxtarea" className="form-control" placeholder="Subject" cols="30" rows="10"></textarea>
                                                 </div>
                                             </div>
                                              <div className="">
@@ -59,12 +88,13 @@ function Contact() {
 
                                             <div className="col-md-12">
                                                 <div className="form-group ">
-                                                    <button type="submit" className="btn btn-info">summit</button>
+                                                    <button type="submit" value="Send" className="btn btn-info">summit</button>
                                                 </div>
                                             </div>
                                         </div>
 
                                     </form>
+                    
                                 </div>
                             </div>
                             <div className="col-md-6 ">
@@ -127,6 +157,19 @@ function Contact() {
                 </div>
             </div>
         </div>
+        <ToastContainer
+    position="top-center"
+    autoClose={5000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="light"
+  
+    />
         
     </section>
   );

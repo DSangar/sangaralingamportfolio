@@ -1,4 +1,4 @@
-import profilephoto from './images/image4.png'
+import profilephoto from './images/image3.jpg'
 
 
 function profile(){
@@ -25,7 +25,7 @@ function profile(){
                     <br />
                     
                     <div className="text-light">
-                    <h3 className='text-center'>Sangar D</h3>
+                    <h3 className='text-center'>Sangaralingam D</h3>
                     </div>
                     <br />
                                     <pre className='text-center text-light'>
