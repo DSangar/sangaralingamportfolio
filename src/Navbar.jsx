@@ -1,71 +1,70 @@
-import React from 'react'
-import Logo from './images/Slogo.png'
-import profiler from './Profile1.jsx'
-import './style.css'
-
-
-
+import React from "react";
+import Logo from "./images/Slogo.png";
+import "./style.css";
 
 function Navbar() {
-
-  const mystyle={
-
-    width:"50px",
-    height:"40px",
-     
-
+  const logoStyle = {
+    width: "50px",
+    height: "40px",
   };
-
-  const btnstyle={
-
-
-    size:"20px",
-     
-
-  };
-
-  
 
   return (
-    <nav className="navbar navbar-expand-sm bg-dark navbar-dark nav-tabs fixed-top">
-      
-        
-      
-    <div className="container-fluid">
-    
-          <a class="navbar-brand" href="#">
-            <img src={Logo} className="rounded-pill" style={mystyle} />
-          </a>
-      <a className="navbar-brand" href="javascript(0)">Logo</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top shadow">
+      <div className="container-fluid">
+        {/* Brand */}
+        <a className="navbar-brand d-flex align-items-center" href="#Home">
+          <img
+            src={Logo}
+            alt="Sangar Logo"
+            className="rounded-pill me-2"
+            style={logoStyle}
+          />
+          <span className="fw-bold">SANGARD.</span>
+        </a>
+
+        {/* Toggle */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-        <ul className="navbar-nav ">
-          <li className="nav-item active">
-            <a className="nav-link" href="#Home">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Profile">Profile</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Project">Projects</a>
-          </li>
-           
-          <li className="nav-item">
-            <a className="nav-link" href="#Jounery">Jounery</a>
-          </li>     
-          <li className="nav-item">
-            <a className="nav-link" href="#Skills">Skills</a>
-          </li>  
-          <li className="nav-item">
-            <a className="" href="#Contact"><button class="btn btn-outline-info btn-sm" type="button" style={btnstyle}>Contact</button></a>
-          </li>   
-        </ul>
+        </button>
+
+        {/* Links */}
+        <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul className="navbar-nav align-items-center">
+            <li className="nav-item">
+              <a className="nav-link" href="#Home">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Profile">Profile</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Project">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Journey">Journey</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li className="nav-item ms-2">
+              <a href="#Contact">
+                <button className="btn btn-outline-info btn-sm rounded-pill px-3">
+                  Contact
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  )
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

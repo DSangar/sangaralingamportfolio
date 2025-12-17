@@ -1,88 +1,85 @@
-import React from 'react'
-import Logo from './images/image4rb.png'
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import React from "react";
+import Logo from "./images/image4.png";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Home() {
-
-    const [text]=useTypewriter({
-        words:['UI/UX Developer', 'FullStack Developer','MERN Stack Developer', 'Web Designer'],
-        loop:{},
-        typeSpeed:120,
-    })
-
+  const [text] = useTypewriter({
+    words: [
+      "UI/UX Developer",
+      "Full Stack Developer",
+      "MERN Stack Developer",
+      "Web Designer",
+    ],
+    loop: {},
+    typeSpeed: 120,
+  });
 
   return (
-    <section className="contact-scetion" id="Home">
-
-        <div className="contaniner ">
+    <section className="contact-section py-5" id="Home">
+      <div className="container">
+        <div className="row align-items-center justify-content-center">
+          {/* Left */}
+          <div
+            className="col-md-6 text-center text-md-start"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+          >
             <br />
-            <div className="row justify-content-center">
-                <div className="col-md-10">
-                    <div className="wrapper">
-                        <div className="row no-gutters">
-                            <div className="col-md-6 " data-aos="flip-left" data-aos-duration="2500">
-                                <div className="contact-wrap w100 p-lg-5 p-4">
-                                <div className="container name-section">
-                            <h1 data-aos-duration="4500" data-aos="fade-down-right" >Sangaralingam D</h1>
-                            <h3>I'm a <span>{text}</span> 
-                            <Cursor cursorStyle='"-"' /></h3>
-                            <br />
-                            <h6>Learn Every Day ...
-                                Error make good Developer</h6>
-                            <br />
-                            
+            <br />
+            <br />
+            
+            <h1 className="mb-3">Sangaralingam D</h1>
 
-                                <button type="button" class="btn rounded-pill btn-outline-secondary">Let's Chat</button> 
+            <h3 className="mb-3">
+              I'm a <span className="text-info">{text}</span>
+              <Cursor cursorStyle="|" />
+            </h3>
 
-                                <span className='homebutn'>
-                                    
-                                    <button type="button" class="btn btn-info rounded-pill" >Download CV</button>
-                                </span>
-                                
+            <h6 className="text-muted mb-4">
+              Learn Every Day — Errors make a good Developer
+            </h6>
 
-                                <div>
-                                    <br />
-                                    <br />
-                                    <button button type="button" class="btn btn-outline-info">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    </button><span>         </span>
-                                    <button button type="button" class="btn btn-outline-info">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    </button><span>         </span>
-                                    <button button type="button" class="btn btn-outline-info">
-                                    <i class="fa-brands fa-twitter"></i>
-                                    </button><span>         </span>
-                                    <span>         </span>
-                                    <button button type="button" class="btn btn-outline-info">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    </button><span>         </span>
-                                </div>
-                            
-                        
-                            
-                        </div>
+            <div className="mb-4">
+              <button className="btn btn-outline-secondary rounded-pill me-3">
+                Let's Chat
+              </button>
 
-                    
-                    
-                
-                                </div>
-                            </div>
-                            <div className="col-md-6  " data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-                              <div className="contact-wrap w100 p-lg-5 p-4">
-                                <img className="Header-image img-fluid" src={Logo} alt="" srcset="" />
-                                   
-                                </div>
-
-                            </div>
-
-                        </div> 
-                    </div>
-                </div>
+              <a
+                href="/Sangaralingam-CV.pdf"
+                download
+                className="btn btn-info rounded-pill"
+              >
+                Download CV
+              </a>
             </div>
+
+            <div className="d-flex gap-3 justify-content-center justify-content-md-start">
+              <a className="btn btn-outline-info" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a className="btn btn-outline-info" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a className="btn btn-outline-info" href="https://twitter.com/" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          {/* Right */}
+          <div
+            className="col-md-6 text-center mt-5 mt-md-0"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img
+              src={Logo}
+              alt="Profile Illustration"
+              className="img-fluid Header-image"
+            />
+          </div>
         </div>
-        
+      </div>
     </section>
   );
 }
